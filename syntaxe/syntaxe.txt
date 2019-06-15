@@ -1,1 +1,0 @@
-Nous utiliserons Python en mode intèractive pour expliquer la notion de syntaxe 
