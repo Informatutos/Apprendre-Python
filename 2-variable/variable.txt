@@ -1,0 +1,36 @@
+---------------------------------------------
+            NOTION DE VARIABLE
+---------------------------------------------
+
+En Programmation la notion de variable est très importante car sans les variables en Programmation 
+on ne peut simplement rien faire . Et pour bien comprendre la réalité liée à cette notion nous devons
+juste retenir qu'en Programmation les variables sont des conteneurs dans lesquels nous stockerons des
+informations donc en générale LES VARIABLES SONT DES CONTENEURS POUR STOCKER DES VALEURS DE DONNÉES
+
+---------------------------------------------
+            VARIABLE EN PYTHON
+---------------------------------------------
+
+En Python il n'y a pas de mot clé pour indiquer la déclaration d'une variables ce qui faire la différence
+avec certains languages de Programmation comme le JavaScript . Alors une variable est crée en python quand
+vous lui affectez une valeur
+
+Ex: voir fichier variable.py
+
+Il est à noter que la déclaration d'une variable n'a pas besoin d'un typage en Python comme c'est le cas 
+dans d'autres languages comme le C où on a || int val = 5; || car Python est dynamique et est capable de 
+de reconnaitre le type de chaque variable .
+
+---------------------------------------------
+  RÈGLE POUR LA DÉCLARATION D'UNE VARIABLE
+---------------------------------------------
+
+En Python et aussi dans d'autres languages de Programmation la déclaration d'une variable suit quelques
+règles très importante à savoir :
+
+Un nom de variable doit commencer par une lettre ou un caractère de soulignement
+Un nom de variable ne peut pas commencer par un nombre
+Un nom de variable ne peut contenir que des caractères alphanumériques et des traits de soulignement (Az, 0-9 et _)
+Les noms de variables sont sensibles à la casse (age, Age et AGE sont trois variables différentes)
+
+NB : N'OUBLIEZ JAMAIS QUE LES NOMS DE VARIABLES SONT sensibles À LA CASSE !

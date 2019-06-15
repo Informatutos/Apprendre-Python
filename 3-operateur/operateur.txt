@@ -1,0 +1,49 @@
+-------------------------------------------------------
+                LES OPERATEUR EN PYTHON
+-------------------------------------------------------
+
+Nous avons 4 types d'operateurs en python en savoir :
+==> Les operateurs d'affectation
+==> Les operateurs logiques
+==> Les operateurs de comparaisons
+==> Les operateurs mathématiques
+
+Pour une description de chaque type d'operateurs on a :
+
+1 => Les operateurs d'affectation ne sont riens d'autres que le '=' que nous utilisons depuis
+le début de cette formation 
+
+2 => Les operateurs logiques sont entres autres : 
+
+'or' qui est le (ou logique)
+'and' qui est le (et logique)
+'not' qui est le (non logique)
+
+NB : Il est à noté que les expressions avec les operateurs logique sont évaluées à 'True' ou 'False'
+
+3 => Les opérateurs de comparaisons sont très souvant utilisés et ils sont entres autres :
+
+'<' --> strictement inférieur
+'>' --> strictement supérieur
+'<=' --> inférieur ou égal 
+'>=' --> supérieur ou égal
+'==' --> égal
+'!=' --> différent 
+'is' --> la correspondance entre deux objets
+'is not' --> la non correspondance entre deux objets
+
+NB : Il est à noté que les expressions avec les operateurs de comparaisons sont évaluées à 'True' ou 'False' (booléens)
+
+4 => Les operateurs mathématiques :
+
+Ces opérateurs sont ceux qu'on a toujours utilisé en classe à l'exception de quelque un .
+
+'+' --> addition
+'-' --> soustraction
+'*' --> multiplication 
+'/' --> division 
+'//' --> division entier
+'**' --> puissance
+'%' --> modulo 
+
+NB : N'oubliez jamais la règle de priorité (PEMDAS)
