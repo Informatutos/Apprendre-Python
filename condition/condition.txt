@@ -1,0 +1,15 @@
+=======================================================
+            NOTION DE CONDITION EN PYTHON 
+=======================================================
+Pour résoudre un problème informatique, il faut toujours 
+effectuer une série d'actions dans un certain ordre. 
+C'est là qu'intervient les condtions et avec cela on 
+mettra en place des vrais programmes !
+--------------------------------------------------------
+Tous ceux que vous devez retenir sont :
+==> Les mots clés if, elif et else
+==> Les deux points après votre condition 
+==> L'indentattion est aussi à respecter c'est important !
+==> N'oubliez pas que vous pouvez faire de l'imbriguation !
+------------------------------------------------------------
+On se voit la prochaine fois pour la vidéo suivante !!!!
