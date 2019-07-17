@@ -1,0 +1,18 @@
+==> while 
+
+L'instruction while est une boucle, c'est-à-dire qu'elle permet de répéter plusieurs fois un bloc d'instructions (en boucle).
+
+"while" exécute des commandes tant qu'une ou plusieurs conditions sont vraies.
+
+Donc avec l'instruction "while", Python commence par évaluer la validité de la condition fournie entre "parenthèses"  (celles-ci sont optionnelles, c'est juste pour clarifier l'explication) Si la condition se révèle fausse, alors tout le bloc qui suit est ignoré et l'exécution du programme se termine dans le cas contraire  python continue l'exécution du programme 
+
+NB : IL EST IMPORTANT DE TOUJOURS CONTROLER L'ACTION DE LA BOUCLE WHILE POUR EVITER DES PROBLÈMES DE PLANTAGE 
+
+
+==> for 
+
+Tous simple , la boucle "for" permet d'exécuter une itération un certain nombre de fois
+
+==> break ==> continue 
+
+L'instruction "break" permet d'arrêter une boucle avant sa fin et l'instruction "continue" est similaire, mais au lieu d'interrompre la boucle, elle permet de passer à l'itération suivante
