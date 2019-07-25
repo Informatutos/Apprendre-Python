@@ -1,0 +1,28 @@
+NB : Il est à noté que je n'ai pas utilisé toutes les methodes disponibles pour les chaines de charactère en python
+j'ai jugé bon de vous montrez ce qui est souvant utilisé !!
+
+Alors une chaine de charactère un un type de donnée plus généralement ce qu'on appelle des données composites. Ce qui rassemble dans une structure un ensemble d'entité  dans le cas d'une chaîne de caractères, par exemple ce sont  les caractères eux-mêmes
+
+------------------------------------------------------------------------------
+CE QUE J'AI OUBLIÉ 
+------------------------------------------------------------------------------
+La methode strip permet de retirer des espaces au début et à la fin d'une chaine de caractère 
+
+-------------->><<-------------
+On a aussi la methode find qui permet de rechercher dans une chaine de charactère 
+la position d'un charactère ou un mot  un peu comme le index...
+
+On a aussi rfind qui permet la mème chose mais cette fois ci à tous les endroits dans la chaine 
+là où find le faire qu'au première rencontre du mot recherché en question 
+
+------------------------------>>>><<<<<<<<<<<<<<----------------------------
+
+Vous avez aussi la posibilité d'additioner deux chaines EX :
+cahine1 = "je suis "
+chaine2 = "un Programmeur en python"
+chaine3 = chaine1 + chaine2
+print(chaine3)#---> Je suis un Programmeur en Python
+
+Vous poussez aussi concatener deux chaines de charactères Ex :
+chaineConnt = "Je suis un " "Programmeur en python"
+print(chaineConnt)#---> Je suis un Programmeur en Python 
