@@ -1,0 +1,27 @@
+Alors les listes en python sont aussi des types de données commes les chaines
+de charactères ! et une liste peut contenir tous autres types de donnée
+Mais comparativement aux chaines de charactères qui ne sont pas modifiables les 
+liste le sont . ceci étant si vous faits comme ceci :
+
+liste1 = ['ballon','tenis','monero']
+liste2 = liste1
+
+Toutes les modifications sur la liste2 auront effets sur la liste1 et vice versa
+ceci vous ne faits pas une copie de la liste mais juste un alias ou un réferencement à
+la liste principale et pour remedier à cela il faut utiliser la methode copy de liste
+
+Noté également qu'il est possible d'addition deux liste :
+Ex :
+liste1 = ['ballon','tenis','monero']
+liste2 = ['pillone','pilop','fever']
+liste3 = liste1+liste2
+
+Resultat : liste3 = ['ballon','tenis','monero','pillone','pilop','fever']
+
+Vous pouviez vérifier aussi si un élément est bien dans une liste en fesant :
+
+'elemnt ' in liste1 : Renvoir True si oui et False si non 
+
+Ou simplement fait le contraire :
+
+'elemnt' not in liste1 : Renvoir False si elemnt y est et True dans le cas contraire
