@@ -1,0 +1,25 @@
+Les Dictionnaires en python sont un autres type de donné qui du coup ne sont pas des
+séquences comme des listes mais un type composite de system clée valeur
+
+La déclaration est relativement simple :: dico = {'Facebook':['users', 'usersAdmin'], 'Youtube':('Fr', 'Be')}
+
+Alors comme fonction usuelle nous avons probablement deux utiles qui sont ::
+
+del ==>  qui permet de supprimer un élément de notre Dictionnaire Ex del dico['Youtube']
+len(dic) ==> qui retourne la taille 
+
+Parlant de Méthode des Dictionnaire nous en avons quelques unes qui sont :
+
+keys ==> qui renvoie les clées d'un dictionnaire Ex: dico.keys()
+values ==> qui renvoie les valeurs d'un dictionnaire Ex: dico.values()
+item ==> qui renvoie les éléments de notre dictionnaire sous forme d'un tuple dans une liste Ex : dico.items()
+copy ==> pour faire une copie Ex : dicox = dico.copy()
+update ==> concaténation de deux dictionnaire Ex : dico.update(dicox)
+
+'Key' in Dico :: Renvoie True si la clée y est et False dans le cas contraire 
+
+finalement une methode get qui du coup permet d'eviter l'erreur KeyError Ex : dico.get('Keys', 'defaultValues')
+Keys --> pour la clée et defaultValues pour la valeur par défaut au cas la clée n'existera pas !!
+
+Bonne suite de Programmation à vous !
+
