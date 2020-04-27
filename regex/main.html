@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Regex</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        table , th, td{
+            border: 1px solid black;
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Python Regex</h3>
+    <hr>
+    <table cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr>
+        <td valign="top" width="221">Metacharacters</td>
+        <td valign="top" width="221">So What?</td>
+        </tr>
+        <tr>
+        <td valign="top" width="221">\</td>
+        <td valign="top" width="221">Followed by certain characters, used to represent character classes.&nbsp; Also used before a metacharacter to treat the metacharacter as a literal.</td>
+        </tr>
+        <tr>
+        <td valign="top" width="221">.</td>
+        <td valign="top" width="221">Any character, except a newline, unless the M flag is set.</td>
+        </tr>
+        <tr>
+        <td valign="top" width="221">*</td>
+        <td valign="top" width="221">Matches a string consisting of 0 or more repetitions of the preceding character or group.</td>
+        </tr>
+        <tr>
+        <td valign="top" width="221">+</td>
+        <td valign="top" width="221">Matches a string consisting of 1 or more repetitions of the preceding character or group.</td>
+        </tr>
+        <tr>
+        <td valign="top" width="221">?</td>
+        <td valign="top" width="221">Matches a string consisting of 0 or 1 instances of the preceding character or group.</td>
+        </tr>
+        <tr>
+        <td valign="top" width="221">{}</td>
+        <td valign="top" width="221">For {n} placed after a regular expression, matches exactly n instances of the preceding character or group.For {n,} placed after a regular expression, matches n or more instances of the preceding character or group.<p></p>
+        <p>For {n,m} placed after a regular expression, matches n to m instances of the preceding character or group.</p>
+        <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+        <td valign="top" width="221">^</td>
+        <td valign="top" width="221">Matches the beginning of a string.</td>
+        </tr>
+        <tr>
+        <td valign="top" width="221">$</td>
+        <td valign="top" width="221">Matches the end of a string.</td>
+        </tr>
+        <tr>
+        <td valign="top" width="221">[]</td>
+        <td valign="top" width="221">Matches one character within the brackets.</td>
+        </tr>
+        <tr>
+        <td valign="top" width="221">[^]</td>
+        <td valign="top" width="221">Matches one character not in the brackets, so long as the carrot is the first character inside the brackets.</td>
+        </tr>
+        <tr>
+        <td valign="top" width="221">()</td>
+        <td valign="top" width="221">Creates a group of what is inside the parentheses.</td>
+        </tr>
+        <tr>
+        <td valign="top" width="221">|</td>
+        <td valign="top" width="221">Or.&nbsp; a | bc matches a or bc.</td>
+        </tr>
+        </tbody>
+        </table>
+        <hr>
+        <table  cellspacing="0" cellpadding="0">
+            <tbody>
+            <tr>
+            <td valign="top" width="221">Metacharacter</td>
+            <td valign="top" width="221">Character Class</td>
+            </tr>
+            <tr>
+            <td valign="top" width="221">\w</td>
+            <td valign="top" width="221">Matches any one alphanumeric characters.&nbsp; Equivalent to [A-Za-z0-9_].</td>
+            </tr>
+            <tr>
+            <td valign="top" width="221">\W</td>
+            <td valign="top" width="221">Matches any one non-alphanumeric characters.&nbsp; Equivalent to [^A-Za-z0-9_].</td>
+            </tr>
+            <tr>
+            <td valign="top" width="221">\d</td>
+            <td valign="top" width="221">Matches any one digit character.&nbsp; Equivalent to [0-9].</td>
+            </tr>
+            <tr>
+            <td valign="top" width="221">\D</td>
+            <td valign="top" width="221">Matches any one non-digit character.&nbsp; Equivalent to [^0-9].</td>
+            </tr>
+            <tr>
+            <td valign="top" width="221">\s</td>
+            <td valign="top" width="221">Matches any one whitespace character.&nbsp; Equivalent to [ \n\t\r\v\f].</td>
+            </tr>
+            <tr>
+            <td valign="top" width="221">\S</td>
+            <td valign="top" width="221">Matches any one non-whitespace character.&nbsp; Equivalent to [^ \n\t\r\v\f].</td>
+            </tr>
+            <tr>
+            <td valign="top" width="221">\b</td>
+            <td valign="top" width="221">Matches the empty string at the boundaries of a word.</td>
+            </tr>
+            <tr>
+            <td valign="top" width="221">\B</td>
+            <td valign="top" width="221">Matches the empty string everywhere but at the boundaries of a word.</td>
+            </tr>
+            <tr>
+            <td valign="top" width="221">\A</td>
+            <td valign="top" width="221">Matches the start of a string.</td>
+            </tr>
+            <tr>
+            <td valign="top" width="221">\Z</td>
+            <td valign="top" width="221">Matches the end of a string, except if the final character is a newline.&nbsp; Then, matches one character before the newline.</td>
+            </tr>
+            <tr>
+            <td valign="top" width="221">\z</td>
+            <td valign="top" width="221">Matches the end of a string.</td>
+            </tr>
+            <tr>
+            <td valign="top" width="221">\G</td>
+            <td valign="top" width="221">Matches position of the most recent match.</td>
+            </tr>
+            <tr>
+            <td valign="top" width="221">\1 \2 \3</td>
+            <td valign="top" width="221">Matches the nth group.</td>
+            </tr>
+            </tbody>
+            </table>
+</body>
+</html>
